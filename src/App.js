@@ -1,10 +1,11 @@
-import HomeScreen from './Screens/HomeScreen';
-
-
+import ToDoView from "./Screens/Feature/view/ToDoView";
 
 function App() {
-  return <div>
-<HomeScreen/>
-  </div>;
+  return (
+   <>
+   <ToDoView />
+   </>
+  )
 }
+
 export default App;
